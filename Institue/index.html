@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institue</title>
+    <style>
+        body{
+            background-color: #212121;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container{
+            flex-direction: column;
+            width: 350px;
+            padding: 30px;
+            border-radius: 15px;
+            background-color: #696969;
+        }
+
+        input{
+            padding: 10px;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            width: 70%;
+        }
+
+        button{
+            background-color: #3e85e2;
+            border-radius: 10px;
+            padding: 15px;
+            color: white;
+            margin-bottom: 10px;
+            width: 50%;
+
+        }
+
+        button:hover{
+            background-color: #166ad8;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="container">
+        <h1 style="color: white;">Faculty Details </h1>
+        <form action="" method="post">
+                <input type="text" placeholder="Faculty Name">
+                <input type="text" placeholder="Faculty Password">
+                <input type="text" placeholder="Faculty Age">
+                <input type="text" placeholder="Course Id">
+
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+        </form>
+    </div>    
+ </body>
+ <script>
+    document.querySelector("button").addEventListener('click',function(){
+        window.href.location = ("home.html")
+    })
+ </script>
+ </html>
